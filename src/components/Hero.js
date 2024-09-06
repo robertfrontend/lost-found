@@ -7,12 +7,12 @@ const Hero = () => {
           {/* presentation */}
           <div className="text-left">
             <div className="max-w-md">
-              <h1 className="text-3xl md:text-4xl font-bold">Boston's Lost & Found Central 🏙️🔍</h1>
-              <p className="py-6">Reconnect with your lost belongings in Boston - from cherished pets to valuable items, we're here to help!</p>
+              <h1 className="text-3xl md:text-4xl font-bold">Boston&apos;s Lost & Found Central 🏙️🔍</h1>
+              <p className="py-6">Reconnect with your lost belongings in Boston - from cherished pets to valuable items, we&apos;re here to help!</p>
               <ul className="list-none space-y-2">
                 <li>🐾 Reunite lost pets with their owners</li>
                 <li>🔍 Search for misplaced personal items</li>
-                <li>🦸 Be a hero - report items you've found</li>
+                <li>🦸 Be a hero - report items you&apos;ve found</li>
                 <li>📢 Broadcast your lost item to the community</li>
                 <li>💡 Get tips on preventing future losses</li>
               </ul>
