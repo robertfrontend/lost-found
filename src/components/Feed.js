@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { List } from "../example";
+import { List } from "../app/example";
 import Image from "next/image";
 import Fuse from "fuse.js";
 
@@ -50,7 +50,6 @@ const Feed = () => {
         onChange={handleSearch}
       />
       <button onClick={resetList}>Reset</button>
-
       <div className="grid grid-cols-2 md:grid-cols-3">
         {list.map((dt, index) => (
           <div
@@ -73,6 +72,7 @@ const Feed = () => {
           </div>
         ))}
       </div>
+      <div className="text-center">{list.length === 0 && "No results"}</div>
     </section>
   );
 };
